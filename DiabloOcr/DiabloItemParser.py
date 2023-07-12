@@ -1,5 +1,6 @@
 import re
-from AffixHelper import AffixHelper
+from .AffixHelper import AffixHelper
+from .DiabloItem import DiabloItem
 
 class DiabloItemParser:
     def __init__(self, text=None):
