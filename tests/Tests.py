@@ -1,6 +1,6 @@
 import unittest
 from PIL import Image
-from OCR import DiabloImageReader, DiabloItemParser
+from .. import DiabloImageReader, DiabloItemParser
 
 class DiabloItemParserIntegrationTest(unittest.TestCase):
     def setUp(self):
