@@ -1,0 +1,28 @@
+{
+  "itemTypes": [
+    "Amulet",
+    "Boots",
+    "Chest Armor",
+    "Gloves",
+    "Helm",
+    "Pants",
+    "Ring",
+    "Axe",
+    "Two-Handed Axe",
+    "Bow",
+    "Crossbow",
+    "Dagger",
+    "Focus",
+    "Mace",
+    "Two-Handed Mace",
+    "Polearm",
+    "Scythe",
+    "Two-Handed Scythe",
+    "Shield",
+    "Staff",
+    "Sword",
+    "Two-Handed Sword",
+    "Wand",
+    "Totem"
+  ]
+}
