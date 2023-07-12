@@ -21,12 +21,12 @@ class AffixHelper:
         self.load_item_types()
 
     def load_affixes(self):
-        with open(os.path.dirname(__file__) + "/affixes.json", encoding="utf-8") as file:
+        with open(os.path.join(os.path.dirname(__file__), "data", "affixes.json"), encoding="utf-8") as file:
             data = json.load(file)
             self.affixes = data
     
     def load_item_types(self):
-        with open(os.path.dirname(__file__) + "/itemTypes.json", encoding="utf-8") as file:
+        with open(os.path.join(os.path.dirname(__file__), "data", "itemTypes.json"), encoding="utf-8") as file:
             data = json.load(file)
             self.item_types = data['itemTypes']
 

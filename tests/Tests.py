@@ -1,14 +1,16 @@
+import os
 import unittest
 from PIL import Image
-from OCR import DiabloImageReader, DiabloItemParser
+from DiabloOcr.DiabloImageReader import DiabloImageReader
+from DiabloOcr.DiabloItemParser import DiabloItemParser
 
 class DiabloItemParserIntegrationTest(unittest.TestCase):
     def setUp(self):
         self.parser = DiabloItemParser()
-        self.fixture_folder = "fixtures/"
+        self.fixture_folder = os.path.join(os.path.dirname(__file__), "fixtures")
 
     def test_parse_test1(self):
-        image_path = self.fixture_folder + "test1.png"
+        image_path = os.path.join(self.fixture_folder, "test1.png")
         image = Image.open(image_path)
         ocr_result = DiabloImageReader.perform_ocr(image)
         expected_result = {
