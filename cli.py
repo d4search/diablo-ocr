@@ -2,7 +2,8 @@ import sys
 import requests
 from PIL import Image
 from io import BytesIO
-from . import DiabloImageReader, DiabloItemParser
+from DiabloImageReader import DiabloImageReader
+from DiabloItemParser import DiabloItemParser
 
 def main():
     if len(sys.argv) < 2:
