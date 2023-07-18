@@ -14,10 +14,10 @@ class DiabloItemParser:
             self.text_section1, self.text_section2, self.text_section3 = self.split_string_sections(self.text)
         affix_helper = AffixHelper()
 
-        item_name = self.extract_name()
         item_power = self.extract_power()
         item_power_type = self.extract_power_type()
         item_type = affix_helper.find_closest_item_type(self.extract_type())
+        item_name = affix_helper.find_closet_item_name(item_type, self.extract_name())
         dps = self.extract_dps()
         armor = self.extract_armor()
         affixes = self.extract_affixes()
@@ -32,9 +32,10 @@ class DiabloItemParser:
             implict_affixes_count = 0
 
         for i, affix in enumerate(affixes):
-            found_affix = affix_helper.find_closest_affix(affix)
             affix_value = self.extract_affix_value(affix)
-            affixes[i] = [found_affix['name'], affix_value]
+            affix = affix.replace(str(affix_value), '[VALUE]')
+            found_affix = affix_helper.find_closest_affix(affix)
+            affixes[i] = [found_affix, affix_value]
 
         implicit_affixes = affixes[0:implict_affixes_count]
         affixes = affixes[implict_affixes_count:]
@@ -101,36 +102,10 @@ class DiabloItemParser:
 
         return section1, section2, section3
 
-    def extract_affixes_old(self, dps, armor):
-        #pattern = r'Lucky Hit(.+)|While Injured(.+)|[^\s]\+*\d+\.*\d*%*.*\s*\W*\[\d+\.*\d*\s*((=|-)\s*\d+\.*\d*)?(\)|\]|1)%*(?:\W*\(*\d*\.\d*%*\))?'
-        pattern = r'Lucky Hit(.+)\s(.+)|While Injured(.+)\s(.+)|\+?\d+\.?\d?\%?.+\s.+'
-        matches = re.finditer(pattern, self.text_section2, re.MULTILINE)
-        affixes = []
-
-        def replace_percentage(string):
-            result = re.sub(r'(?<=\d)\d\%', ']%', string)
-            return result
-
-        def remove_after_first(text):
-            index = text.find(']%')
-            offset = 1
-            if index == -1:
-                index = text.find(']')
-                offset = 0
-            if index != -1:
-                text = text[:index+1+offset]
-            return text
-
-        for _, match in enumerate(matches, start=1):
-            cleaner_affix = replace_percentage(match.group().replace('\n', ' ').replace('  ', ' ').replace('=', '-').replace(' |', ''))
-            affix = re.sub(r'\s*\(\+*\d+\.\d+%\)$', '', cleaner_affix)
-            affixes.append(remove_after_first(affix))
-
-        return affixes
 
     def extract_affix_value(self, text):
         pattern = r'\d+(\.\d+)?'  # Regular expression pattern to match a number
-        match = re.search(pattern, text)
+        match = re.search(pattern, text.replace('a 5% Chance', '').replace(' ', ''))
         if match:
             return float(match.group())  # Convert the matched string to a float
         else:
@@ -144,11 +119,11 @@ class DiabloItemParser:
         for line in lines:
             if not line:
                 continue  # Skip empty lines
-            elif re.search(r'^(\ +)?\S\ +(\+\d|\d+\.\d+\% \w)', line):
-                start = re.search(r'(\+\d|\d+\.\d+\% \w)', line).start()
+            if not formatted_lines and re.search(r'(\+\d|\d+\.\s?\d+\% ?\w)', line) or re.search(r'\ (\+\d|\d+\.\s?\d+\% ?\w)', line):
+                start = re.search(r'(\+\d|\d+\.\s?\d+\% ?\w)', line).start()
                 formatted_lines.append(line[start:].strip())
-            elif re.search(r'^(\ +)?(\+\d|\d+\.\d+\% \w)', line):
-                formatted_lines.append(line.strip())
+            #elif re.search(r'^(\ +)?(\+\d|\d+\.\s?\d+\% ?\w)', line):
+            #    formatted_lines.append(line.strip())
             elif re.search(r'\s?While', line):
                 formatted_lines.append(line.strip())
             elif re.search(r'\s?Evade', line):
@@ -172,11 +147,13 @@ class DiabloItemParser:
         return formatted_lines
 
     def extract_name(self):
-        item_name = re.search(r'^([A-Z]+)\s([A-Z]+)', re.sub(r'[^A-Z\s]', '', self.text_section1.replace('e', 'O')), re.MULTILINE)
+        clean_line = re.sub(r'[^A-Za-z\s]|[^A-Za-z]{3,}', '', self.text_section1).strip()
+        item_name = re.search(r'^([A-Za-z]+){2,}\s([A-Za-z]+){2,}(\n?\s+(?!Rare|Ancestral|Sacred)([A-Za-z]+){2,})?', clean_line, re.MULTILINE)
         try:
             if item_name:
                 item_name = item_name.group(0)
-                return item_name.title()
+                item_name = re.sub(r'\n+', ' ', item_name)
+                return item_name.strip().title()
         except:
             pass
 
