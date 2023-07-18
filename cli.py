@@ -1,7 +1,7 @@
 import sys
+import cv2
+import numpy as np
 import requests
-from PIL import Image
-from io import BytesIO
 from DiabloOcr.DiabloItemParser import DiabloItemParser
 from DiabloOcr.DiabloImageReader import DiabloImageReader
 
@@ -12,8 +12,9 @@ def main():
 
     picture_url = sys.argv[1]
 
-    response = requests.get(picture_url)
-    image = Image.open(BytesIO(response.content))
+    response = requests.get(picture_url, stream=True).raw
+    image = np.asarray(bytearray(response.read()), dtype="uint8")
+    image = cv2.imdecode(image, cv2.IMREAD_COLOR)
     item = DiabloItemParser().parse(DiabloImageReader.perform_ocr(image))
 
     print(item.to_json())

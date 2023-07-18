@@ -1,0 +1,1329 @@
+{
+    "attributes": [
+        {
+            "name": "[{VALUE}] {c:FF888888}Shield Block Value{/c:FF888888}",
+            "cleanName": "[{VALUE}] Shield Block Value",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Critical Strike Chance",
+            "cleanName": "+[{VALUE}*100|1%|] Critical Strike Chance",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Critical Strike Damage",
+            "cleanName": "+[{VALUE}*100|1%|] Critical Strike Damage",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] {VALUE1} Damage",
+            "cleanName": "+[{VALUE2}*100|1%|] {VALUE1} Damage",
+            "precision": true
+        },
+        {
+            "name": "+{VALUE%} Potion Healing Speed",
+            "cleanName": "+{VALUE%} Potion Healing Speed",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}*100|~%|] Gold Drop Rate",
+            "cleanName": "[{VALUE}*100|~%|] Gold Drop Rate",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}|~|] Maximum Life",
+            "cleanName": "[{VALUE}|~|] Maximum Life",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE}*100|~%|] Life",
+            "cleanName": "+[{VALUE}*100|~%|] Life",
+            "precision": false
+        },
+        {
+            "name": "{c_label}Lucky Hit:{/c} Up to a 5% Chance to Heal +[{VALUE}] Life",
+            "cleanName": "Lucky Hit: Up to a 5% Chance to Heal +[{VALUE}] Life",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}|~|] Life On Kill",
+            "cleanName": "[{VALUE}|~|] Life On Kill",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE}] Healing Over Time",
+            "cleanName": "+[{VALUE}] Healing Over Time",
+            "precision": false
+        },
+        {
+            "name": "{VALUE1} Damage Immunity",
+            "cleanName": "{VALUE1} Damage Immunity",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE} * 100|1%|] Sell Value",
+            "cleanName": "+[{VALUE} * 100|1%|] Sell Value",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Movement Speed",
+            "cleanName": "+[{VALUE}*100|1%|] Movement Speed",
+            "precision": true
+        },
+        {
+            "name": "Increases movement speed for [{VALUE}] seconds. Effect ends if you deal or receive damage.",
+            "cleanName": "Increases movement speed for [{VALUE}] seconds. Effect ends if you deal or receive damage.",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Pierce Chance",
+            "cleanName": "+[{VALUE}*100|1%|] Pierce Chance",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|~%|] Requirements",
+            "cleanName": "[{VALUE}*100|~%|] Requirements",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE2}*100|1%|] {VALUE1} Resistance",
+            "cleanName": "[{VALUE2}*100|1%|] {VALUE1} Resistance",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Resistance to All Elements",
+            "cleanName": "[{VALUE}*100|1%|] Resistance to All Elements",
+            "precision": true
+        },
+        {
+            "name": "Sockets ([{VALUE}-{VALUE2}])",
+            "cleanName": "Sockets ([{VALUE}-{VALUE2}])",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Life Steal",
+            "cleanName": "+[{VALUE}*100|1%|] Life Steal",
+            "precision": true
+        },
+        {
+            "name": "Restore [{VALUE}*100|1%|] of Damage Dealt as Resource",
+            "cleanName": "Restore [{VALUE}*100|1%|] of Damage Dealt as Resource",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}|~|] Experience On Kill",
+            "cleanName": "[{VALUE}|~|] Experience On Kill",
+            "precision": false
+        },
+        {
+            "name": "+[{Value}*100|1%|] Bonus Experience",
+            "cleanName": "+[{Value}*100|1%|] Bonus Experience",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}|~|] Willpower",
+            "cleanName": "[{VALUE}|~|] Willpower",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Maximum Life",
+            "cleanName": "[{VALUE}*100|1%|] Maximum Life",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE} * 100|1%|] Attack Speed",
+            "cleanName": "+[{VALUE} * 100|1%|] Attack Speed",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE2}*100|1%|] Maximum {VALUE1}",
+            "cleanName": "[{VALUE2}*100|1%|] Maximum {VALUE1}",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}] Maximum {VALUE1}",
+            "cleanName": "+[{VALUE2}] Maximum {VALUE1}",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE2}|~|] {VALUE1} On Kill",
+            "cleanName": "[{VALUE2}|~|] {VALUE1} On Kill",
+            "precision": false
+        },
+        {
+            "name": "+{VALUE2} {VALUE1} on Critical Strike",
+            "cleanName": "+{VALUE2} {VALUE1} on Critical Strike",
+            "precision": false
+        },
+        {
+            "name": "Highly Salvageable",
+            "cleanName": "Highly Salvageable",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Control Impaired Duration Reduction",
+            "cleanName": "[{VALUE}*100|1%|] Control Impaired Duration Reduction",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE} * 100|1%|] Dodge Chance",
+            "cleanName": "[{VALUE} * 100|1%|] Dodge Chance",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}] Pickup Radius",
+            "cleanName": "+[{VALUE}] Pickup Radius",
+            "precision": false
+        },
+        {
+            "name": "{c_label}Lucky Hit:{/c} Up to a +[{VALUE} * 100|1%|] Chance to Knockback",
+            "cleanName": "Lucky Hit: Up to a +[{VALUE} * 100|1%|] Chance to Knockback",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage to Elites",
+            "cleanName": "+[{VALUE}*100|1%|] Damage to Elites",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Damage Reduction from Elites",
+            "cleanName": "[{VALUE}*100|1%|] Damage Reduction from Elites",
+            "precision": true
+        },
+        {
+            "name": "Level Requirement Reduced by [{VALUE}]",
+            "cleanName": "Level Requirement Reduced by [{VALUE}]",
+            "precision": false
+        },
+        {
+            "name": "Ignores Durability Loss",
+            "cleanName": "Ignores Durability Loss",
+            "precision": false
+        },
+        {
+            "name": "Binds to Account When Equipped",
+            "cleanName": "Binds to Account When Equipped",
+            "precision": false
+        },
+        {
+            "name": "Account Bound",
+            "cleanName": "Account Bound",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE1}*100|1%|] Cooldown Reduction",
+            "cleanName": "[{VALUE1}*100|1%|] Cooldown Reduction",
+            "precision": true
+        },
+        {
+            "name": "Reduces the number of items needed for set bonuses by 1 (to a minimum of 2).",
+            "cleanName": "Reduces the number of items needed for set bonuses by 1 (to a minimum of 2).",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Resource Cost Reduction",
+            "cleanName": "[{VALUE}*100|1%|] Resource Cost Reduction",
+            "precision": true
+        },
+        {
+            "name": "{c_label}Lucky Hit:{/c} Up to a +[{VALUE1}*100|1%|] Chance to Deal [{VALUE2}*100|1%|] Bleeding Damage over {VALUE3} seconds",
+            "cleanName": "Lucky Hit: Up to a +[{VALUE1}*100|1%|] Chance to Deal [{VALUE2}*100|1%|] Bleeding Damage over {VALUE3} seconds",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Chance to Ignore Damage Taken",
+            "cleanName": "+[{VALUE}*100|1%|] Chance to Ignore Damage Taken",
+            "precision": true
+        },
+        {
+            "name": "Immune to Stagger.",
+            "cleanName": "Immune to Stagger.",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE2}*100|1%|] {VALUE1} Resource Cost Reduction",
+            "cleanName": "[{VALUE2}*100|1%|] {VALUE1} Resource Cost Reduction",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage",
+            "cleanName": "+[{VALUE}*100|1%|] Damage",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage to Close Enemies",
+            "cleanName": "+[{VALUE}*100|1%|] Damage to Close Enemies",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage to Distant Enemies",
+            "cleanName": "+[{VALUE}*100|1%|] Damage to Distant Enemies",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Damage Reduction from Close Enemies",
+            "cleanName": "[{VALUE}*100|1%|] Damage Reduction from Close Enemies",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Damage Reduction from Distant Enemies",
+            "cleanName": "[{VALUE}*100|1%|] Damage Reduction from Distant Enemies",
+            "precision": true
+        },
+        {
+            "name": "{c_label}Lucky Hit:{/c} Up to a +[{VALUE2} * 100|1%|] Chance to {VALUE1}",
+            "cleanName": "Lucky Hit: Up to a +[{VALUE2} * 100|1%|] Chance to {VALUE1}",
+            "precision": true
+        },
+        {
+            "name": "{c_label}Lucky Hit:{/c} Critical Strikes Have Up to a +[{VALUE2} * 100|1%|] Chance to {VALUE1}",
+            "cleanName": "Lucky Hit: Critical Strikes Have Up to a +[{VALUE2} * 100|1%|] Chance to {VALUE1}",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Crowd Control Duration",
+            "cleanName": "+[{VALUE}*100|1%|] Crowd Control Duration",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE1}*100|1%|] Movement Speed for {VALUE2} Seconds After Killing an Elite",
+            "cleanName": "+[{VALUE1}*100|1%|] Movement Speed for {VALUE2} Seconds After Killing an Elite",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage for {VALUE2} Seconds After Killing an Elite",
+            "cleanName": "+[{VALUE}*100|1%|] Damage for {VALUE2} Seconds After Killing an Elite",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Damage Reduction for {VALUE2} Seconds After Killing an Elite",
+            "cleanName": "[{VALUE}*100|1%|] Damage Reduction for {VALUE2} Seconds After Killing an Elite",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100] Life On Elite Kill",
+            "cleanName": "+[{VALUE}*100] Life On Elite Kill",
+            "precision": false
+        },
+        {
+            "name": "+{VALUE2} {VALUE1} Damage",
+            "cleanName": "+{VALUE2} {VALUE1} Damage",
+            "precision": false
+        },
+        {
+            "name": "{c_label}Lucky Hit:{/c} Up to a 5% Chance to Deal [{VALUE}] Damage",
+            "cleanName": "Lucky Hit: Up to a 5% Chance to Deal [{VALUE}] Damage",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE}] Maximum Life",
+            "cleanName": "+[{VALUE}] Maximum Life",
+            "precision": false
+        },
+        {
+            "name": "Restores [{VALUE}] Life",
+            "cleanName": "Restores [{VALUE}] Life",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}] Life Regeneration per Second while Out of Combat",
+            "cleanName": "[{VALUE}] Life Regeneration per Second while Out of Combat",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage Over Time",
+            "cleanName": "+[{VALUE}*100|1%|] Damage Over Time",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Shrine Buff Duration",
+            "cleanName": "+[{VALUE}*100|1%|] Shrine Buff Duration",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Healing Received",
+            "cleanName": "+[{VALUE}*100|1%|] Healing Received",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Barrier Generation",
+            "cleanName": "+[{VALUE}*100|1%|] Barrier Generation",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Damage Reduction while Injured",
+            "cleanName": "[{VALUE}*100|1%|] Damage Reduction while Injured",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Lucky Hit Chance",
+            "cleanName": "+[{VALUE}*100|1%|] Lucky Hit Chance",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Minion Damage",
+            "cleanName": "+[{VALUE}*100|1%|] Minion Damage",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Minion Damage",
+            "cleanName": "+[{VALUE}*100|1%|] Minion Damage",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Crafting Material Drop Rate",
+            "cleanName": "+[{VALUE}*100|1%|] Crafting Material Drop Rate",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] {VALUE1} Duration",
+            "cleanName": "+[{VALUE2}*100|1%|] {VALUE1} Duration",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Damage to {VALUE1} Enemies",
+            "cleanName": "+[{VALUE2}*100|1%|] Damage to {VALUE1} Enemies",
+            "precision": true
+        },
+        {
+            "name": "+[{Value}*100|1%|] Bonus Experience from Elites",
+            "cleanName": "+[{Value}*100|1%|] Bonus Experience from Elites",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE2} * 100|1%|] {VALUE1} Cost Reduction",
+            "cleanName": "[{VALUE2} * 100|1%|] {VALUE1} Cost Reduction",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Vulnerable Damage",
+            "cleanName": "+[{VALUE}*100|1%|] Vulnerable Damage",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Critical Strike Chance Against Close Enemies",
+            "cleanName": "+[{VALUE}*100|1%|] Critical Strike Chance Against Close Enemies",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Critical Strike Chance Against Distant Enemies",
+            "cleanName": "+[{VALUE}*100|1%|] Critical Strike Chance Against Distant Enemies",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE} * 1000|~|] Mount Armor",
+            "cleanName": "[{VALUE} * 1000|~|] Mount Armor",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage while no other Minions are Attacking the Enemy",
+            "cleanName": "+[{VALUE}*100|1%|] Damage while no other Minions are Attacking the Enemy",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage for Each Other Minion Attacking the Enemy",
+            "cleanName": "+[{VALUE}*100|1%|] Damage for Each Other Minion Attacking the Enemy",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage for 8 Seconds After Being Summoned",
+            "cleanName": "+[{VALUE}*100|1%|] Damage for 8 Seconds After Being Summoned",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Potion Healing",
+            "cleanName": "+[{VALUE}*100|1%|] Potion Healing",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Potion Cooldown Cooldown",
+            "cleanName": "[{VALUE}*100|1%|] Potion Cooldown Cooldown",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Gem Strength in this Item",
+            "cleanName": "[{VALUE}*100|1%|] Gem Strength in this Item",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage while Healthy",
+            "cleanName": "+[{VALUE}*100|1%|] Damage while Healthy",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}] Life as Barrier On Kill",
+            "cleanName": "+[{VALUE}] Life as Barrier On Kill",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE2} * 100|1%|] {VALUE1} Attack Speed ",
+            "cleanName": "+[{VALUE2} * 100|1%|] {VALUE1} Attack Speed ",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage to Injured Enemies",
+            "cleanName": "+[{VALUE}*100|1%|] Damage to Injured Enemies",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage to Healthy Enemies",
+            "cleanName": "+[{VALUE}*100|1%|] Damage to Healthy Enemies",
+            "precision": true
+        },
+        {
+            "name": "{c_label}Lucky Hit:{/c} Up to a 5% Chance to Absorb [{VALUE}] Life",
+            "cleanName": "Lucky Hit: Up to a 5% Chance to Absorb [{VALUE}] Life",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Damage Reduction while Evading",
+            "cleanName": "[{VALUE}*100|1%|] Damage Reduction while Evading",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}] Life Regeneration while Not Damaged Recently",
+            "cleanName": "+[{VALUE}] Life Regeneration while Not Damaged Recently",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE}] Thorns",
+            "cleanName": "+[{VALUE}] Thorns",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Damage Taken Over Time Reduction",
+            "cleanName": "[{VALUE}*100|1%|] Damage Taken Over Time Reduction",
+            "precision": true
+        },
+        {
+            "name": "Minions Inherit +[{VALUE}*100|1%|] of Your Stats",
+            "cleanName": "Minions Inherit +[{VALUE}*100|1%|] of Your Stats",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}|~|] Strength",
+            "cleanName": "[{VALUE}|~|] Strength",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}|~|] Intelligence",
+            "cleanName": "[{VALUE}|~|] Intelligence",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}|~|] Dexterity",
+            "cleanName": "[{VALUE}|~|] Dexterity",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}|~|] All Stats",
+            "cleanName": "[{VALUE}|~|] All Stats",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE} * 100|1%|] Weapon Speed",
+            "cleanName": "+[{VALUE} * 100|1%|] Weapon Speed",
+            "precision": true
+        },
+        {
+            "name": "{c_label}Lucky Hit:{/c} Up to a +[{VALUE}*100|1%|] Chance to Execute Injured Non-Elites",
+            "cleanName": "Lucky Hit: Up to a +[{VALUE}*100|1%|] Chance to Execute Injured Non-Elites",
+            "precision": true
+        },
+        {
+            "name": "{c_label}Lucky Hit:{/c} Up to a 5% Chance to Restore +[{VALUE2}*100|1%|] {VALUE1}",
+            "cleanName": "Lucky Hit: Up to a 5% Chance to Restore +[{VALUE2}*100|1%|] {VALUE1}",
+            "precision": true
+        },
+        {
+            "name": "Chance per Hit to gain [{VALUE2}*100|~%|] {VALUE1}",
+            "cleanName": "Chance per Hit to gain [{VALUE2}*100|~%|] {VALUE1}",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage Taken from Close Enemies",
+            "cleanName": "+[{VALUE}*100|1%|] Damage Taken from Close Enemies",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage Taken from Distant Enemies",
+            "cleanName": "+[{VALUE}*100|1%|] Damage Taken from Distant Enemies",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] {VALUE1} Critical Strike Damage",
+            "cleanName": "+[{VALUE2}*100|1%|] {VALUE1} Critical Strike Damage",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Critical Strike Chance with {VALUE1} Damage",
+            "cleanName": "+[{VALUE2}*100|1%|] Critical Strike Chance with {VALUE1} Damage",
+            "precision": true
+        },
+        {
+            "name": "{c_label}Lucky Hit:{/c} Up to a 5% Chance to Restore [{VALUE}] Life",
+            "cleanName": "Lucky Hit: Up to a 5% Chance to Restore [{VALUE}] Life",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Damage Reduction while Fortified",
+            "cleanName": "[{VALUE}*100|1%|] Damage Reduction while Fortified",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Fortify Generation",
+            "cleanName": "+[{VALUE}*100|1%|] Fortify Generation",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Lucky Hit Chance with {VALUE1}",
+            "cleanName": "+[{VALUE2}*100|1%|] Lucky Hit Chance with {VALUE1}",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Damage Reduction while Control Impaired",
+            "cleanName": "[{VALUE}*100|1%|] Damage Reduction while Control Impaired",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Damage Reduction while Standing Still",
+            "cleanName": "[{VALUE}*100|1%|] Damage Reduction while Standing Still",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Helpful Effect Duration",
+            "cleanName": "[{VALUE}*100|1%|] Helpful Effect Duration",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Harmful Effect Duration",
+            "cleanName": "[{VALUE}*100|1%|] Harmful Effect Duration",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] {VALUE1} Damage Over Time",
+            "cleanName": "+[{VALUE2}*100|1%|] {VALUE1} Damage Over Time",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE2}*100|1%|] {VALUE1} Damage Taken Over Time Reduction",
+            "cleanName": "[{VALUE2}*100|1%|] {VALUE1} Damage Taken Over Time Reduction",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Maximum Life",
+            "cleanName": "[{VALUE}*100|1%|] Maximum Life",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage to Crowd Controlled Enemies",
+            "cleanName": "+[{VALUE}*100|1%|] Damage to Crowd Controlled Enemies",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE2}*100|1%|] {VALUE1} Generation",
+            "cleanName": "[{VALUE2}*100|1%|] {VALUE1} Generation",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage while Standing Still",
+            "cleanName": "+[{VALUE}*100|1%|] Damage while Standing Still",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Critical Strike Chance Against {VALUE1} Enemies",
+            "cleanName": "+[{VALUE2}*100|1%|] Critical Strike Chance Against {VALUE1} Enemies",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Critical Strike Chance Against Crowd Controlled Enemies",
+            "cleanName": "+[{VALUE}*100|1%|] Critical Strike Chance Against Crowd Controlled Enemies",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Critical Strike Chance with {VALUE1} Damage Against Elites",
+            "cleanName": "+[{VALUE2}*100|1%|] Critical Strike Chance with {VALUE1} Damage Against Elites",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage while Fortified",
+            "cleanName": "+[{VALUE}*100|1%|] Damage while Fortified",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Critical Strike Damage to Close Enemies",
+            "cleanName": "+[{VALUE}*100|1%|] Critical Strike Damage to Close Enemies",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Critical Strike Damage to Distant Enemies",
+            "cleanName": "+[{VALUE}*100|1%|] Critical Strike Damage to Distant Enemies",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE2}*100|1%|] Damage Reduction from Enemies That Are {VALUE1}",
+            "cleanName": "[{VALUE2}*100|1%|] Damage Reduction from Enemies That Are {VALUE1}",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Dodge Chance Against Enemies That Are {VALUE1}",
+            "cleanName": "+[{VALUE2}*100|1%|] Dodge Chance Against Enemies That Are {VALUE1}",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE2}*100|1%|] Damage Reduction from {VALUE1} Enemies",
+            "cleanName": "[{VALUE2}*100|1%|] Damage Reduction from {VALUE1} Enemies",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Damage Reduction from Vulnerable Enemies",
+            "cleanName": "[{VALUE}*100|1%|] Damage Reduction from Vulnerable Enemies",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Critical Strike Damage to Crowd Controlled Enemies",
+            "cleanName": "+[{VALUE}*100|1%|] Critical Strike Damage to Crowd Controlled Enemies",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Critical Strike Damage to Vulnerable Enemies",
+            "cleanName": "+[{VALUE}*100|1%|] Critical Strike Damage to Vulnerable Enemies",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Critical Strike Chance Against Vulnerable Enemies",
+            "cleanName": "+[{VALUE}*100|1%|] Critical Strike Chance Against Vulnerable Enemies",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}] Armor",
+            "cleanName": "+[{VALUE}] Armor",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}|~|] Weapon Damage",
+            "cleanName": "[{VALUE}|~|] Weapon Damage",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE} * 100|1%|] Non-Physical Damage",
+            "cleanName": "+[{VALUE} * 100|1%|] Non-Physical Damage",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Critical Strike Chance Against Injured Enemies",
+            "cleanName": "+[{VALUE}*100|1%|] Critical Strike Chance Against Injured Enemies",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Maximum Minion Life",
+            "cleanName": "[{VALUE}*100|1%|] Maximum Minion Life",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Minion Armor",
+            "cleanName": "+[{VALUE}*100|1%|] Minion Armor",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Minion Resistance to All Elements",
+            "cleanName": "[{VALUE}*100|1%|] Minion Resistance to All Elements",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Chill Application",
+            "cleanName": "[{VALUE}*100|1%|] Chill Application",
+            "precision": true
+        },
+        {
+            "name": "+{VALUE2} |4Rank:Ranks; of {VALUE1}",
+            "cleanName": "+{VALUE2} |4Rank:Ranks; of {VALUE1}",
+            "precision": false
+        },
+        {
+            "name": "+{VALUE1} |4Rank:Ranks; of All Skills",
+            "cleanName": "+{VALUE1} |4Rank:Ranks; of All Skills",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE2}*100|1%|] {VALUE1} Damage Over Time Duration",
+            "cleanName": "[{VALUE2}*100|1%|] {VALUE1} Damage Over Time Duration",
+            "precision": true
+        },
+        {
+            "name": "{c_label}Lucky Hit:{/c} Up to a 5% Chance to Restore +[{VALUE}*100|1%|] Primary Resource",
+            "cleanName": "Lucky Hit: Up to a 5% Chance to Restore +[{VALUE}*100|1%|] Primary Resource",
+            "precision": true
+        },
+        {
+            "name": "+{VALUE2} |4Rank:Ranks; of the {VALUE1} Passive",
+            "cleanName": "+{VALUE2} |4Rank:Ranks; of the {VALUE1} Passive",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}|~|] Strength",
+            "cleanName": "[{VALUE}|~|] Strength",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}|~|] Dexterity",
+            "cleanName": "[{VALUE}|~|] Dexterity",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}|~|] Willpower",
+            "cleanName": "[{VALUE}|~|] Willpower",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}|~|] Intelligence",
+            "cleanName": "[{VALUE}|~|] Intelligence",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Life On Kill",
+            "cleanName": "+[{VALUE}*100|1%|] Life On Kill",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Overpower Chance",
+            "cleanName": "+[{VALUE}*100|1%|] Overpower Chance",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100}|1%|] Overpower Damage",
+            "cleanName": "+[{VALUE}*100}|1%|] Overpower Damage",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Damage Reduction for Your Minions",
+            "cleanName": "[{VALUE}*100|1%|] Damage Reduction for Your Minions",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] {VALUE1} Duration",
+            "cleanName": "+[{VALUE2}*100|1%|] {VALUE1} Duration",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Attack Speed for {VALUE2} Seconds After Dodging an Attack",
+            "cleanName": "+[{VALUE}*100|1%|] Attack Speed for {VALUE2} Seconds After Dodging an Attack",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage for {VALUE2} Seconds After Dodging an Attack",
+            "cleanName": "+[{VALUE}*100|1%|] Damage for {VALUE2} Seconds After Dodging an Attack",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Damage with {VALUE1}",
+            "cleanName": "+[{VALUE2}*100|1%|] Damage with {VALUE1}",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Critical Strike Chance with {VALUE1}",
+            "cleanName": "+[{VALUE2}*100|1%|] Critical Strike Chance with {VALUE1}",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Critical Strike Damage with {VALUE1}",
+            "cleanName": "+[{VALUE2}*100|1%|] Critical Strike Damage with {VALUE1}",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE} * 100|1%|] Attack Speed while Fortified",
+            "cleanName": "+[{VALUE} * 100|1%|] Attack Speed while Fortified",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Non-Physical Critical Strike Damage",
+            "cleanName": "+[{VALUE}*100|1%|] Non-Physical Critical Strike Damage",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Total Armor while in Werebear Form",
+            "cleanName": "+[{VALUE}*100|1%|] Total Armor while in Werebear Form",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Total Armor while in Werewolf Form",
+            "cleanName": "+[{VALUE}*100|1%|] Total Armor while in Werewolf Form",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Imbued Skill Damage",
+            "cleanName": "+[{VALUE}*100|1%|] Imbued Skill Damage",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Critical Strike Damage with Imbued Skills",
+            "cleanName": "+[{VALUE}*100|1%|] Critical Strike Damage with Imbued Skills",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage to Vulnerable Enemies with Imbued Skills",
+            "cleanName": "+[{VALUE}*100|1%|] Damage to Vulnerable Enemies with Imbued Skills",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Chance When Struck to Fortify for {VALUE2} Life",
+            "cleanName": "+[{VALUE}*100|1%|] Chance When Struck to Fortify for {VALUE2} Life",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE2}*100|1%|] {VALUE1} Resistance to All Elements",
+            "cleanName": "[{VALUE2}*100|1%|] {VALUE1} Resistance to All Elements",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] {VALUE1} Damage",
+            "cleanName": "+[{VALUE2}*100|1%|] {VALUE1} Damage",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] {VALUE1} Armor",
+            "cleanName": "+[{VALUE2}*100|1%|] {VALUE1} Armor",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] {VALUE1} Attack Speed",
+            "cleanName": "+[{VALUE2}*100|1%|] {VALUE1} Attack Speed",
+            "precision": true
+        },
+        {
+            "name": "{c_label}Lucky Hit:{/c} Up to a +[{VALUE}*100|1%|] Chance to Make Enemies Vulnerable for {VALUE2} Seconds",
+            "cleanName": "Lucky Hit: Up to a +[{VALUE}*100|1%|] Chance to Make Enemies Vulnerable for {VALUE2} Seconds",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Minion Attack Speed",
+            "cleanName": "+[{VALUE}*100|1%|] Minion Attack Speed",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Companion Movement Speed",
+            "cleanName": "+[{VALUE}*100|1%|] Companion Movement Speed",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Damage while {VALUE1} are Active",
+            "cleanName": "+[{VALUE2}*100|1%|] Damage while {VALUE1} are Active",
+            "precision": true
+        },
+        {
+            "name": "+{VALUE2} Armor while {VALUE1} are Active",
+            "cleanName": "+{VALUE2} Armor while {VALUE1} are Active",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage for {VALUE2} Seconds After Picking Up a Blood Orb",
+            "cleanName": "+[{VALUE}*100|1%|] Damage for {VALUE2} Seconds After Picking Up a Blood Orb",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Blood Orb Healing",
+            "cleanName": "+[{VALUE}*100|1%|] Blood Orb Healing",
+            "precision": true
+        },
+        {
+            "name": "Reduces the Arm Time of Your Trap Skills by [{VALUE}|1|] |4Second:Seconds;",
+            "cleanName": "Reduces the Arm Time of Your Trap Skills by [{VALUE}|1|] |4Second:Seconds;",
+            "precision": false
+        },
+        {
+            "name": "{c_label}Lucky Hit:{/c} Critical Strikes From Your Minions Have up to a 5% Chance to Reduce Enemy Damage Dealt by [{VALUE} * 100|1%|] for {VALUE2} Seconds",
+            "cleanName": "Lucky Hit: Critical Strikes From Your Minions Have up to a 5% Chance to Reduce Enemy Damage Dealt by [{VALUE} * 100|1%|] for {VALUE2} Seconds",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Chance When Struck to Gain {s1} Life as Barrier for {s2} Seconds",
+            "cleanName": "+[{VALUE}*100|1%|] Chance When Struck to Gain {s1} Life as Barrier for {s2} Seconds",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] {VALUE1} Damage to Elites",
+            "cleanName": "+[{VALUE2}*100|1%|] {VALUE1} Damage to Elites",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Cold Imbued Skill Damage",
+            "cleanName": "+[{VALUE}*100|1%|] Cold Imbued Skill Damage",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Barrier from Ice Armor",
+            "cleanName": "+[{VALUE}*100|1%|] Barrier from Ice Armor",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] {VALUE1} Damage",
+            "cleanName": "+[{VALUE2}*100|1%|] {VALUE1} Damage",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Total Armor while {VALUE1} are Active",
+            "cleanName": "+[{VALUE2}*100|1%|] Total Armor while {VALUE1} are Active",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Damage Reduction",
+            "cleanName": "[{VALUE}*100|1%|] Damage Reduction",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Healing Over Time",
+            "cleanName": "[{VALUE}*100|1%|] Healing Over Time",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Overpower Damage with {VALUE1}",
+            "cleanName": "+[{VALUE2}*100|1%|] Overpower Damage with {VALUE1}",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Total Armor",
+            "cleanName": "+[{VALUE}*100|1%|] Total Armor",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Damage while in {VALUE1}",
+            "cleanName": "+[{VALUE2}*100|1%|] Damage while in {VALUE1}",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage with Skills that Swap to New Weapons",
+            "cleanName": "+[{VALUE}*100|1%|] Damage with Skills that Swap to New Weapons",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Damage while {VALUE1}",
+            "cleanName": "+[{VALUE2}*100|1%|] Damage while {VALUE1}",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Damage while Shapeshifted",
+            "cleanName": "+[{VALUE}*100|1%|] Damage while Shapeshifted",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE2}*100|1%|] {VALUE1} Regeneration per Second",
+            "cleanName": "[{VALUE2}*100|1%|] {VALUE1} Regeneration per Second",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Damage to {VALUE1} Enemies",
+            "cleanName": "+[{VALUE2}*100|1%|] Damage to {VALUE1} Enemies",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Fire Resistance",
+            "cleanName": "[{VALUE}*100|1%|] Fire Resistance",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Cold Resistance",
+            "cleanName": "[{VALUE}*100|1%|] Cold Resistance",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Lightning Resistance",
+            "cleanName": "[{VALUE}*100|1%|] Lightning Resistance",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Poison Resistance",
+            "cleanName": "[{VALUE}*100|1%|] Poison Resistance",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Shadow Resistance",
+            "cleanName": "[{VALUE}*100|1%|] Shadow Resistance",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Resource Generation",
+            "cleanName": "[{VALUE}*100|1%|] Resource Generation",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Critical Strike Damage with {VALUE1}",
+            "cleanName": "+[{VALUE2}*100|1%|] Critical Strike Damage with {VALUE1}",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Poison Imbued Skill Damage",
+            "cleanName": "+[{VALUE}*100|1%|] Poison Imbued Skill Damage",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Shadow Imbued Skill Damage",
+            "cleanName": "+[{VALUE}*100|1%|] Shadow Imbued Skill Damage",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Lucky Hit Chance with {VALUE1} Damage",
+            "cleanName": "+[{VALUE2}*100|1%|] Lucky Hit Chance with {VALUE1} Damage",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}] Strength",
+            "cleanName": "[{VALUE}] Strength",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}] Dexterity",
+            "cleanName": "[{VALUE}] Dexterity",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}] Intelligence",
+            "cleanName": "[{VALUE}] Intelligence",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE}] Willpower",
+            "cleanName": "[{VALUE}] Willpower",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE2}*100|1%|] {VALUE1} Maximum Life",
+            "cleanName": "[{VALUE2}*100|1%|] {VALUE1} Maximum Life",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}] Max Evade |4Charge:Charges;",
+            "cleanName": "+[{VALUE}] Max Evade |4Charge:Charges;",
+            "precision": false
+        },
+        {
+            "name": "Attacks Reduce Evade's Cooldown by [{VALUE}|1|] |4Second:Seconds;",
+            "cleanName": "Attacks Reduce Evade's Cooldown by [{VALUE}|1|] |4Second:Seconds;",
+            "precision": false
+        },
+        {
+            "name": "Evade Grants +[{VALUE}*100|%|] Movement Speed for 1 Second",
+            "cleanName": "Evade Grants +[{VALUE}*100|%|] Movement Speed for 1 Second",
+            "precision": false
+        },
+        {
+            "name": "+[{vALUE} * 100|%|] Main Hand Weapon Damage",
+            "cleanName": "+[{vALUE} * 100|%|] Main Hand Weapon Damage",
+            "precision": false
+        },
+        {
+            "name": "[{vALUE}*100|%|] Block Chance",
+            "cleanName": "[{vALUE}*100|%|] Block Chance",
+            "precision": false
+        },
+        {
+            "name": "[{vALUE}*100|%|] Blocked Damage Reduction",
+            "cleanName": "[{vALUE}*100|%|] Blocked Damage Reduction",
+            "precision": false
+        },
+        {
+            "name": "+{VALUE2} |4Rank:Ranks; of All {VALUE1} Skills",
+            "cleanName": "+{VALUE2} |4Rank:Ranks; of All {VALUE1} Skills",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Critical Strike Damage with {VALUE1} Skills",
+            "cleanName": "+[{VALUE2}*100|1%|] Critical Strike Damage with {VALUE1} Skills",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Critical Strike Chance with {VALUE1} Skills",
+            "cleanName": "+[{VALUE2}*100|1%|] Critical Strike Chance with {VALUE1} Skills",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] {VALUE1} Skill Damage",
+            "cleanName": "+[{VALUE2}*100|1%|] {VALUE1} Skill Damage",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Damage to Enemies Affected by {VALUE1} Skills",
+            "cleanName": "+[{VALUE2}*100|1%|] Damage to Enemies Affected by {VALUE1} Skills",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE2} * 100|1%|] Damage Reduction from Enemies Affected By {VALUE1} Skills",
+            "cleanName": "[{VALUE2} * 100|1%|] Damage Reduction from Enemies Affected By {VALUE1} Skills",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Overpower Damage with {VALUE1} Skills",
+            "cleanName": "+[{VALUE2}*100|1%|] Overpower Damage with {VALUE1} Skills",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] {VALUE1} Skill Duration",
+            "cleanName": "+[{VALUE2}*100|1%|] {VALUE1} Skill Duration",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE2} * 100|1%|] {VALUE1} Skill Cooldown Reduction",
+            "cleanName": "[{VALUE2} * 100|1%|] {VALUE1} Skill Cooldown Reduction",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE2}*100|1%|] {VALUE1} Skill Resource Cost Reduction",
+            "cleanName": "[{VALUE2}*100|1%|] {VALUE1} Skill Resource Cost Reduction",
+            "precision": true
+        },
+        {
+            "name": "+[{vALUE2}*100|1%|] Strength",
+            "cleanName": "+[{vALUE2}*100|1%|] Strength",
+            "precision": true
+        },
+        {
+            "name": "+[{vALUE2}*100|1%|] Intelligence",
+            "cleanName": "+[{vALUE2}*100|1%|] Intelligence",
+            "precision": true
+        },
+        {
+            "name": "+[{vALUE2}*100|1%|] Dexterity",
+            "cleanName": "+[{vALUE2}*100|1%|] Dexterity",
+            "precision": true
+        },
+        {
+            "name": "+[{vALUE2}*100|1%|] Willpower",
+            "cleanName": "+[{vALUE2}*100|1%|] Willpower",
+            "precision": true
+        },
+        {
+            "name": "+[{vALUE}*100|1%|] Healing",
+            "cleanName": "+[{vALUE}*100|1%|] Healing",
+            "precision": true
+        },
+        {
+            "name": "+{vALUE2} Potion Capacity",
+            "cleanName": "+{vALUE2} Potion Capacity",
+            "precision": false
+        },
+        {
+            "name": "While Injured, Your Potion Also Grants [{vALUE2}*100|%|] Maximum Life as Barrier",
+            "cleanName": "While Injured, Your Potion Also Grants [{vALUE2}*100|%|] Maximum Life as Barrier",
+            "precision": false
+        },
+        {
+            "name": "While Injured, Your Potion Also Grants [{vALUE2}*100|%|] Movement Speed for 2 Seconds",
+            "cleanName": "While Injured, Your Potion Also Grants [{vALUE2}*100|%|] Movement Speed for 2 Seconds",
+            "precision": false
+        },
+        {
+            "name": "While Injured, Your Potion Also Restores [{vALUE2}|%|] Resource",
+            "cleanName": "While Injured, Your Potion Also Restores [{vALUE2}|%|] Resource",
+            "precision": false
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Potion Drop Rate",
+            "cleanName": "+[{VALUE2}*100|1%|] Potion Drop Rate",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Damage Reduction while You Have a Barrier",
+            "cleanName": "[{VALUE}*100|1%|] Damage Reduction while You Have a Barrier",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Damage Reduction while Healthy",
+            "cleanName": "[{VALUE}*100|1%|] Damage Reduction while Healthy",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Ultimate Skill Damage",
+            "cleanName": "+[{VALUE}*100|1%|] Ultimate Skill Damage",
+            "precision": true
+        },
+        {
+            "name": "{VALUE1} Inherit +[{VALUE2}*100|1%|] of Your Thorns",
+            "cleanName": "{VALUE1} Inherit +[{VALUE2}*100|1%|] of Your Thorns",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Lucky Hit Chance while You Have a Barrier",
+            "cleanName": "+[{VALUE}*100|1%|] Lucky Hit Chance while You Have a Barrier",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}] Healing Over Time",
+            "cleanName": "+[{VALUE}] Healing Over Time",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE2}*100|1%|] {VALUE1} Duration Reduction",
+            "cleanName": "[{VALUE2}*100|1%|] {VALUE1} Duration Reduction",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2} * 100|1%|] {VALUE1} Skill Attack Speed ",
+            "cleanName": "+[{VALUE2} * 100|1%|] {VALUE1} Skill Attack Speed ",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE2} * 100|1%|] {VALUE1} Cooldown Reduction",
+            "cleanName": "[{VALUE2} * 100|1%|] {VALUE1} Cooldown Reduction",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE}*100|1%|] Basic Skill Damage",
+            "cleanName": "+[{VALUE}*100|1%|] Basic Skill Damage",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Imbuement Potency",
+            "cleanName": "[{VALUE}*100|1%|] Imbuement Potency",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE2}*100|1%|] Overpower Damage with {VALUE1}",
+            "cleanName": "+[{VALUE2}*100|1%|] Overpower Damage with {VALUE1}",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE2}*100|1|] {VALUE1} Resource Cost Reduction",
+            "cleanName": "[{VALUE2}*100|1|] {VALUE1} Resource Cost Reduction",
+            "precision": false
+        },
+        {
+            "name": "+{VALUE2} {VALUE1] per Percentage of Maximum Life Lost when Damaged",
+            "cleanName": "+{VALUE2} {VALUE1] per Percentage of Maximum Life Lost when Damaged",
+            "precision": false
+        },
+        {
+            "name": "[{VALUE2}*100|1%|] Resource Generation from {VALUE1}",
+            "cleanName": "[{VALUE2}*100|1%|] Resource Generation from {VALUE1}",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE2}*100|1%|] Resource Generation from {VALUE1] Skills",
+            "cleanName": "[{VALUE2}*100|1%|] Resource Generation from {VALUE1] Skills",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE2}*100|1%|] Resource Regeneration per Second",
+            "cleanName": "[{VALUE2}*100|1%|] Resource Regeneration per Second",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE} * 100|1%|] Dodge Chance Against Close Enemies",
+            "cleanName": "[{VALUE} * 100|1%|] Dodge Chance Against Close Enemies",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE} * 100|1%|] Dodge Chance Against Distant Enemies",
+            "cleanName": "[{VALUE} * 100|1%|] Dodge Chance Against Distant Enemies",
+            "precision": true
+        },
+        {
+            "name": "+[{VALUE} * 100|1%|] Dodge Chance",
+            "cleanName": "+[{VALUE} * 100|1%|] Dodge Chance",
+            "precision": true
+        },
+        {
+            "name": "[{VALUE}*100|1%|] Resource Generation",
+            "cleanName": "[{VALUE}*100|1%|] Resource Generation",
+            "precision": true
+        }
+    ]
+}
